@@ -10,8 +10,9 @@ https://github.com/user-attachments/assets/ce0b3390-3b86-4e4e-adde-e23afe097144
 4. [Technology Used](#-technology-used)
 5. [Project Structure](#-project-structure)
 6. [Database Schema](#-database-schema)
-7. [Contributor](#-contributor)
-8. [Course Information](#-course-information)
+7. [Running the Application](#-running-the-application)
+8. [Contributor](#-contributor)
+9. [Course Information](#-course-information)
 
 ---
 
@@ -152,6 +153,48 @@ CREATE TABLE `categories` (
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 ```
 ---
+
+## 🚀 Running the Application
+
+### 📋 Requirements
+
+-**Java 17 or later**
+
+-**MySQL Database**
+
+### Install MySQL and set up a database.
+
+### 🚀 Steps to Run
+### 1. Clone the Repository
+Download the project to your computer:
+```
+git clone https://github.com/JohnAlcaraz02/GoalGetter.git
+cd GoalGetter
+```
+### 2. Set Up the Database
+#### Open your MySQL command line or GUI tool.
+Create the database:
+```
+CREATE DATABASE todo_list_db;
+```
+Import the database schema:
+```
+mysql -u your_username -p todo_list_db < database/schema.sql
+```
+### 3. Update Database Configuration
+Edit the database credentials in src/DatabaseConnection.java to match your MySQL setup:
+```
+private static final String DB_URL = "jdbc:mysql://localhost:3306/todo_list_db";
+private static final String DB_USER = "your_username";
+private static final String DB_PASSWORD = "your_password";
+```
+### 4. Compile and Run the Application
+
+-**Open the project in your favorite Java IDE (e.g., IntelliJ IDEA or Eclipse).**
+
+-**Locate and run the Main.java file.**
+
+Make sure the database schema is imported and credentials match.
 
 ## 👤 Contributor
 
