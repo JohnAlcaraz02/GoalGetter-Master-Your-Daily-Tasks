@@ -13,6 +13,7 @@ https://github.com/user-attachments/assets/ce0b3390-3b86-4e4e-adde-e23afe097144
 7. [Contributor](#-contributor)
 8. [Course Information](#-course-information)
 
+---
 
 ## 📖 Project Overview
 ### Introduction
@@ -48,6 +49,8 @@ https://github.com/user-attachments/assets/ce0b3390-3b86-4e4e-adde-e23afe097144
 - **View Task Statistics**:  
   Admins can generate reports on completed and pending tasks across users.
 
+  ---
+
 ## Application of OOP Principles
 In GoalGetter, the core principles of Object-Oriented Programming (OOP) are employed to ensure a structured, scalable, and maintainable application. Below is an explanation of how each OOP principle is applied in the project:
 
@@ -63,6 +66,8 @@ Polymorphism is used in GoalGetter to allow objects of different classes to be t
 ### **Abstraction**
 Abstraction is implemented in GoalGetter to hide the complex details of implementation and present a simplified interface to the user. For instance, the TaskService interface defines high-level methods such as createTask(), updateTask(), and deleteTask(), while the actual implementation of these methods is handled by subclasses like DatabaseTaskService. This allows users to interact with the service without needing to understand the underlying details of database interactions.
 
+---
+
 ## 🌍 Alignment with Sustainable Development Goals
 The GoalGetter application aligns with several United Nations Sustainable Development Goals (SDGs):
 
@@ -70,6 +75,8 @@ The GoalGetter application aligns with several United Nations Sustainable Develo
 GoalGetter promotes productivity and efficient task management, fostering better time management and work-life balance. By helping individuals and teams organize and prioritize their tasks, the project supports increased efficiency, which contributes to sustainable economic growth and decent work.
 ### SDG 3: Good Health and Well-being
 By providing tools for managing daily tasks effectively, GoalGetter can help reduce stress and improve mental health. A well-organized schedule allows users to manage workloads more healthily, ensuring time for rest, exercise, and personal growth.
+
+---
 
 ### 💻 Technology Used
 
@@ -79,6 +86,8 @@ By providing tools for managing daily tasks effectively, GoalGetter can help red
 - **Build Tool**: Maven
 - **IDE**: IntelliJ IDEA
 - **Version Control**: Git
+
+---
 
 ## 📂 Project Structure
 ```
@@ -98,7 +107,9 @@ GoalGetter-Master-Your-Daily-Tasks/
 └── README.md                                 
 ```
 
-## 🗄️ Database Schema
+---
+
+## 🗄 Database Schema
 
 ### Users Table
 ```
@@ -140,6 +151,7 @@ CREATE TABLE `categories` (
   CONSTRAINT `categories_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 ```
+---
 
 ## 👤 Contributor
 
