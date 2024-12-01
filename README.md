@@ -9,10 +9,9 @@ https://github.com/user-attachments/assets/ce0b3390-3b86-4e4e-adde-e23afe097144
 3. [Alignment with Sustainable Development Goals (SDGs)](#-alignment-with-sustainable-development-goals)
 4. [Technology Used](#-technology-used)
 5. [Project Structure](#-project-structure)
-6. [Database Schema](#-database-schema)
-7. [Running the Application](#-running-the-application)
-8. [Contributor](#-contributor)
-9. [Course Information](#-course-information)
+6. [Running the Application](#-running-the-application)
+7. [Contributor](#-contributor)
+8. [Course Information](#-course-information)
 
 ---
 
