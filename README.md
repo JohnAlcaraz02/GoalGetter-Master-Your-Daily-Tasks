@@ -195,11 +195,15 @@ private static final String DB_PASSWORD = "your_password";
 
 Make sure the database schema is imported and credentials match.
 
+---
+
 ## 👤 Contributor
 
 | Name            | Role              | Contact                     |  
 |------------------|-------------------|-----------------------------|  
 | <a href = "https://github.com/JohnAlcaraz02">John C. Alcaraz</a> | Developer & Author | [johnalcaraz026@gmail.com](mailto:johnalcaraz026@gmail.com) |  
+
+---
 
 ## 📚 Course Information  
 
