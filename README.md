@@ -209,6 +209,5 @@ Make sure the database schema is imported and credentials match.
 
 - **Instructor:** Ms. Fatima Marie P. Agdon  
 - **Course:** CS 211: Object-Oriented Programming  
-- **Semester:** 1st Semester, AY 2023-2024  
-- **Institution:** [Batangas State University]  
+- **Institution:** Batangas State University  
 
